@@ -5,3 +5,13 @@ textarea {
 input[type=submit] {
     margin-top: 10px;
 }
+
+/* 플레이스홀더의 글자색을 연하게 만드는 스타일 */
+input::placeholder {
+    color: #DDD; /* 연한 회색 등의 적절한 색상 선택 */
+}
+
+input::-webkit-input-placeholder {
+    color: red;
+    font-style: italic;
+}
